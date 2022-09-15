@@ -30,16 +30,16 @@ const yourNumber2 = 12;
 console.log('This Number is Even:', isEven(yourNumber2))
 
 // practice 03:
-function isEven(number){
-    const remainder = number%2;
-    if(remainder===0){
+function isEven(number) {
+    const remainder = number % 2;
+    if (remainder === 0) {
         return true
     }
-    else{
+    else {
         return false;
     }
 }
-const yourNumber3 =524154;
+const yourNumber3 = 524154;
 console.log('This number is Even:', isEven(yourNumber3))
 
 
@@ -57,12 +57,12 @@ const yourNumber = 25442156;
 console.log('This Number Is Even:', checkEven(yourNumber))
 
 // practice 05:
-function varifyEven(num){
-    const remainder = num% 2;
-    if(remainder===0){
+function varifyEven(num) {
+    const remainder = num % 2;
+    if (remainder === 0) {
         return true
     }
-    else{
+    else {
         return false;
     }
 }
