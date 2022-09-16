@@ -1,5 +1,5 @@
 // practice :01
-/*
+
 function getSumOfAnArray(numbers) {
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
@@ -7,9 +7,8 @@ function getSumOfAnArray(numbers) {
         const elements = numbers[index]
         sum = sum + elements;
         console.log(index, elements,sum)
-        return sum;
     }
-
+    return sum;
 }
 const mynumbers = [12, 65, 45, 78, 32, 45, 91]
 getSumOfAnArray(mynumbers);
@@ -23,6 +22,7 @@ function getSumOfAnArray(numbers) {
         sum = sum + elements;
         console.log( index,elements, sum);
     }
+    return sum;
 }
 const yourNumbers =[12, 65, 45, 78, 32, 45, 91]
 getSumOfAnArray(yourNumbers)
@@ -50,8 +50,8 @@ function getSumOfAnArray(numbers) {
        const elements = numbers[index];
         sum = sum + elements;
        console.log(index, elements ,sum); 
-
     }
+    return sum;
 }
 const serialNumbers = [98, 87, 76, 65, 54, 43, 42, 32, 21];
 getSumOfAnArray(serialNumbers)
@@ -83,7 +83,7 @@ function getSumOfAnArray(numbers) {
 }
 const idNumbers = [667,76,94,23,66,77,88,99];
 getSumOfAnArray(idNumbers)
-*/
+
 
 // practice :07
 function gerSumoOfAnArray(numbers) {
